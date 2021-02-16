@@ -17,11 +17,10 @@ public class LinearSearchExample
           
       return false;   
     }
-    
     public static void main(String args[])
     {
         Scanner scanner = new Scanner(System.in);
-        int[] data = {4, 45, 8, 1, 3, 3, 22, 9};
+        int[] data = {4, 45, 8, 1, 3, 3, 22, 9, 10, 11};
         int target;
         
         System.out.println("What is the target number?");
